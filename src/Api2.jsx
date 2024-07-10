@@ -9,7 +9,7 @@ const Api2 = () => {
         demo1()
     },[])
     function demo1() {
-        axios.get('https://service.apikeeda.com/api/v1/notes/find?search=', {
+        axios.get('https://service.apikeeda.com/api/v1/notes', {
                 headers: {
                   "x-apikeeda-key": token
                 }
